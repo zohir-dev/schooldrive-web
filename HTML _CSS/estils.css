@@ -1,0 +1,198 @@
+body {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+main {
+    width: 75%;
+}
+
+.Contenidor {
+    background: url(https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2023/06/22/adelantar-carretera-doble-sentido-dgt-istock-1386193354.jpeg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    margin: 15px 0;
+    overflow: hidden;
+
+}
+
+.overlay {
+    background: linear-gradient(0deg, #0000001a, #0000007a);
+    ;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+#button {
+    border: none;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-left: 20px;
+    box-shadow: 0 9px #afafaf;
+}
+
+#button:hover {
+    background-color: #16325B;
+    /* Green */
+    color: white;
+}
+
+#button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.Contenidor p {
+    color: white;
+    font-weight: 500;
+}
+
+.Contenidor h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.Contenidor2 {
+    background: url(https://motissimo.es/wp-content/uploads/2022/02/rider-motorbike-on-the-road-riding-having-fun-driving-the-empty-road.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    margin: 15px 0;
+    overflow: hidden;
+
+}
+
+#button2 {
+    border: none;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.Contenidor2 p {
+    color: white;
+    font-weight: 500;
+}
+
+.Contenidor2 h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.Frase1 {
+    background: #16325B;
+    color: #fff;
+    font-size: 40px;
+    width: auto;
+    height: 100px;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.Frase2 {
+    background: #16325B;
+    color: #fff;
+    font-size: 40px;
+    width: auto;
+    height: 100px;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.Feta {
+    background-image: url(/FOTO_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 0%;
+    overflow: hidden;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+#Matriculat {
+    position: fixed;
+    top: 3ch;
+    right: 5ch;
+    border: none;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: ease-in;
+    box-shadow: 0 9px #afafaf;
+
+}
+
+.Contenidor3 {
+    background-image: url(/altres.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    margin: 15px 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+#button3 {
+    border: none;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: ease-in;
+    box-shadow: 0 9px #afafaf;
+}
+
+#button3:hover {
+    background-color: #16325B;
+    /* Green */
+    color: white;
+
+}
+
+#button3:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}

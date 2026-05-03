@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulari de Matriculació</title>
+    <link rel="stylesheet" href="estils_matriculacio.css" />
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Formulari de Matriculació</h1>
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required />
+
+            <label for="cognom1">Primer cognom</label>
+            <input type="text" id="cognom1" name="cognom1" required />
+
+            <label for="cognom2">Segon cognom (opcional)</label>
+            <input type="text" id="cognom2" name="cognom2" />
+
+            <label for="telefon">Telèfon de contacte</label>
+            <input type="tel" id="telefon" name="telefon" pattern="[0-9\s\-\+]{7,15}" required
+                placeholder="Ex: +34 123 456 789" />
+
+            <label for="correu">Correu electrònic</label>
+            <input type="email" id="correu" name="correu" required />
+
+            <label for="permís">Tipus de permís sol·licitat</label>
+            <select id="permís" name="permís" required>
+                <option value="" disabled selected>Seleccioneu un permís</option>
+                <option value="permís-b-manual">Permís B Manual</option>
+                <option value="permís-b-automàtic">Permís B Automàtic</option>
+                <option value="permís-b-adaptat">Permís B Adaptat</option>
+                <option value="permís-a2-manual">Permís A2 Manual</option>
+                <option value="permís-a2-automàtic">Permís A2 Automàtic</option>
+                <option value="permís-a">Permís A</option>
+                <option value="permís-d">Permís D</option>
+                <option value="permís-c">Permís C</option>
+                <option value="permís-am">Permís AM</option>
+                <option value="permís-a1-manual">Permís A1 Manual</option>
+                <option value="permís-a1-automàtic">Permís A1 Automàtic</option>
+            </select>
+            <button type="submit">Enviar sol·licitud</button>
+        </form>
+    </div>
+</body>
+
+</html>
