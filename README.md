@@ -6,11 +6,13 @@ Driving school website that displays all available driving licenses, organized b
 
  HTML5 & CSS3
 
+## 🚀 Live Preview
+You don't need to download the code to see the project in action. You can check out the live website here:
+**[View Live Demo](https://htmlpreview.github.io/?https://github.com/zohir-dev/schooldrive-web/blob/main/HTML%20_CSS/index.html)**
 
 ## Usage/Examples
 
 Clone the repository and open `index.html` in any browser. No installation required.
-
 
 
 ## Screenshots
